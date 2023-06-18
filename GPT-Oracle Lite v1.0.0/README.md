@@ -94,7 +94,7 @@ This upcoming feature is aimed at increasing interactivity and user control, eff
 
 <div align="center">
   
-  This project is licensed under the terms of the Apache License 2.0. Please see [LICENSE](LICENSE) for more details.
+  This project is licensed under the terms of the [Apache License 2.0](../LICENSE).
   
   ![License Logo](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
   
