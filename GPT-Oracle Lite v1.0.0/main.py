@@ -44,7 +44,6 @@ async def on_message(message):
 
         # Extract api_key_file and question
         api_key_file, question = user_input.split(", ", 1)
-        print(api_key_file)
 
         # Read the API key from the file
         try:
