@@ -44,13 +44,14 @@ There are plans to continually enhance the bot's capabilities and features, such
 
 <div align="center">
 
-  **Your Name** - *Role*
-
-  For any queries, discussions, or feedback, feel free to reach out:
+ 
+  🔧 **Logan Falkenberg** - *Lead Developer*
   
-  📧 **Email:** [youremail@gmail.com](mailto:youremail@gmail.com) 
+  For any queries, discussions, or feedback, I am always open. Feel free to reach out:
   
-  🌐 **GitHub:** [@YourGithubHandle](https://github.com/YourGithubHandle)
+  📧 **Email:** [loganf0101@gmail.com](mailto:loganf0101@gmail.com) 
+  
+  🌐 **GitHub:** [@TheTallProgrammer](https://github.com/TheTallProgrammer)
   
 </div>
 
