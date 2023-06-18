@@ -34,7 +34,7 @@ The bot also manages the token count in the conversation to prevent exceeding th
 
 5. **Interacting with the Bot:** Users interact with the bot by providing the API key file path and their question or message, separated by a delimiter.
 
-** DETAILED USAGE IS FOUND IN VERSION FOLDER README **
+**DETAILED USAGE IS FOUND IN VERSION FOLDER README**
 
 
 <h2 align="left">🔜 Upcoming Features </h2>
