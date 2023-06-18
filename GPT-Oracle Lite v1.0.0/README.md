@@ -53,7 +53,7 @@ The bot also keeps track of the token count in the conversation to ensure it doe
      > Remember not to include your actual bot token in your code or version control system. Always keep it separate and securely stored.
 
 
-4. **Running the Bot:** In the current release, the bot can be started through the command line. Navigate to the directory containing the `main.py` file. Make sure you do`"pip install -r requirements.txt"` *(this only has to be done once)* to install the needed packages to run the program. After that, run the bot using the following command:
+4. **Running the Bot:** In the current release, the bot can be started through the command line. Navigate to the directory containing the `main.py` file. Make sure you do`"pip install -r requirements.txt"` *(this only has to be done once)* to install the needed packages to run the bot. After that, run the bot using the following command:
 
      ```
      python main.py
