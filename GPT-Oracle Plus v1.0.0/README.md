@@ -111,6 +111,6 @@ For any queries, discussions, or feedback, please feel free to reach out:
 
 ## 📜 License 
 
-This project is licensed under the terms of the Apache License 2.0. For more details, please see [LICENSE](LICENSE).
+This project is licensed under the terms of the Apache License 2.0. For more details, please see [License](../LICENSE)
 
 
