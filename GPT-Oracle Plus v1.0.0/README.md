@@ -52,10 +52,10 @@ Setting up the GPT-Oracle Plus Bot involves integrating it with your SQL databas
 
 1. **Set up the Database Structure**
 
-    Your SQL database should contain a table `UserKeys` to store the user IDs and associated API keys. The SQL command for creating this table is:
+    Your SQL database should contain a table `UserData` to store the user IDs and associated API keys. The SQL command for creating this table is:
 
     ```sql
-    CREATE TABLE UserKeys (
+    CREATE TABLE UserData (
         UserID BIGINT PRIMARY KEY,
         ApiKey VARCHAR(255) NOT NULL
     );
