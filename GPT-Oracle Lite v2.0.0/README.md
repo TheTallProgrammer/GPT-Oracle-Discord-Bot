@@ -58,4 +58,4 @@ If you have any queries, need assistance, or want to provide feedback, please fe
 
 ## 📜 License 
 
-This project is licensed under the terms of the Apache License 2.0. For more details, please see [LICENSE](LICENSE).
+This project is licensed under the terms of the Apache License 2.0. For more details, please see [License](../LICENSE)
