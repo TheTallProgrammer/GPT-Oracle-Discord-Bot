@@ -9,7 +9,7 @@ The **GPT-Oracle Plus Chatbot** is a powerful language model bot for Discord tha
 
 ### `Secure API Key Storage`
 
-Security has been a primary focus during the development of the GPT-3.5-turbo Discord Chatbot Plus. User's API keys are securely stored in an SQL database and are retrieved only when needed for a user interaction. 
+Security has been a primary focus during the development of the GPT-3.5-turbo Discord Chatbot Plus. Users' API keys are securely stored in an SQL database and are retrieved only when needed for user interaction. 
 
 ### `Command Access Control`
 
@@ -17,9 +17,9 @@ When a user attempts to use the `!ask` command, the bot will search the database
 
 ### `Private Key Saving`
 
-To further increase security, the `!save_key` command, which is used to store a user's API key, can only be executed through direct messages with the bot. This prevents exposure of sensitive information in public or group chats. 
+To further increase security, the `!save_key` command, which is used to store a user's API key, can only be executed through direct messages with the bot. This prevents the exposure of sensitive information in public or group chats. 
 
-With these measures in place, users can confidently interact with the bot, knowing their information is securely stored and used.
+With these measures in place, users can confidently interact with the bot, knowing their information is securely stored.
 
 ---
 
