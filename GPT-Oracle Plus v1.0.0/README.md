@@ -97,28 +97,20 @@ Setting up the GPT-Oracle Plus Bot involves integrating it with your SQL databas
 
 Now, your GPT-Oracle Plus Bot is ready to go! Start your bot, use the `!save_key` command in a Direct Message to store your OpenAI API key, and then employ the `!ask` command in any channel to interact with the bot. Remember to save your changes and restart your bot for the updates to take effect.
 
+## 👨‍💻 Author 
 
- 
-  🔧 **Logan Falkenberg** - *Lead Developer*
-  
-  For any queries, discussions, or feedback, I am always open. Feel free to reach out:
-  
-  📧 **Email:** [loganf0101@gmail.com](mailto:loganf0101@gmail.com) 
-  
-  🌐 **GitHub:** [@TheTallProgrammer](https://github.com/TheTallProgrammer)
-  
-</div>
+Logan Falkenberg - *Lead Developer*
 
+For any queries, discussions, or feedback, please feel free to reach out:
 
-<h2 align="left">📜 License </h2>
+📧 **Email:** [loganf0101@gmail.com](mailto:loganf0101@gmail.com) 
 
-<div align="center">
-  
-  This project is licensed under the terms of the Apache License 2.0. Please see [LICENSE](LICENSE./) for more details.
-  
-  ![License Logo](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-  
-</div>
+🌐 **GitHub:** [@TheTallProgrammer](https://github.com/TheTallProgrammer)
 
+---
+
+## 📜 License 
+
+This project is licensed under the terms of the Apache License 2.0. For more details, please see [LICENSE](LICENSE).
 
 
