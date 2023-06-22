@@ -1,63 +1,46 @@
+# 🤖 GPT-Oracle Discord Bot: Lite vs Plus 🚀
 
-# 🤖 GPT-Oracle Plus Discord Bot 🚀
+The GPT-Oracle Discord Bot is a highly customizable, AI-driven chatbot that leverages the capabilities of advanced language models to facilitate engaging conversations. It comes in two flavors: Lite and Plus. Each version has been developed to cater to different user requirements and use-cases.
 
-The **GPT-Oracle Plus Discord Bot** is an advanced, AI-driven chatbot for Discord that delivers a highly interactive, conversational experience to users. It leverages the power of OpenAI's latest GPT-3.5-turbo model to answer user queries in a highly engaging and human-like manner.
+## 🎚️ Lite Version
 
----
+The Lite version is designed for simplicity and ease-of-use. It is ideally suited for small servers or individual users looking for an AI-powered chatbot without the hassle of managing a database.
 
-## ⭐ Features 
+### Key Features of the Lite Version
 
-- 🗣️ **Advanced AI Chatbot**: Harnesses the power of the GPT-3.5-turbo model for engaging and interactive conversations.
-- 🎟️ **Individual Token Management**: Provides users with the ability to store and manage their individual API keys for personalized and optimized usage.
-- 🔒 **Enhanced Security**: Uses SQL database for secure storage and retrieval of API keys. Provides additional security measures for command usage and API key storage.
-- 🗝️ **API Key Validation and Usage**: Efficiently validates and uses API keys for individual user interactions.
-- 🚀 **Interactive User Experience**: Ensures a smooth, interactive user experience with smart character limit management, automatic responses, and more.
+- **Simple Command Functionality**: The bot accepts direct commands from users, making interactions intuitive and efficient.
+- **Local API Key Storage**: Users can save their API key locally on their system using the `!save_key` command. Once saved, the key can be reused across multiple sessions without the need for repeated input.
+- **Ideal for Small Servers or Single Users**: With a focus on simplicity and ease of use, the Lite version provides a streamlined, efficient chatbot solution for small-scale applications.
 
----
+### ⚠️ Security Notice for Lite Version
 
-## 📘 How It Works 
+The Lite version stores the API key locally on the user's system. While this simplifies usage, it is less secure than the Plus version. It is crucial to ensure the security of the system where the API key is stored and to avoid sharing the API key or the file containing the key with others.
 
-The bot integrates with your Discord server and interacts with users in real-time. It allows each user to store their individual API key, and uses these keys for personalized interactions. The bot checks the stored API key for each user command, ensuring secure and authorized access to its features.
+## 🎛️ Plus Version
 
----
+The Plus version is developed with scalability and robustness in mind. It is perfect for large servers or applications that require multiple users to interact with the bot concurrently.
 
-## 🚀 Usage 
+### Key Features of the Plus Version
 
-Refer to the detailed instructions provided in the individual version folder README for using the bot. The basic steps include obtaining your API key, getting your Discord Bot token, setting up the environment variable, running the bot, and interacting with the bot.
-
----
-
-## 🛠️ Upcoming Features 
-
-The GPT-Oracle Plus Discord Bot is continually being improved and updated. Stay tuned for exciting new features and enhancements!
+- **Command Functionality**: Like the Lite version, the Plus version accepts direct commands from users, enabling seamless interaction.
+- **Remote SQL Database for API Key Storage**: The Plus version stores API keys in a remote SQL database set up by the developer using the bot. This feature allows the bot to manage multiple API keys concurrently, ideal for large servers and multi-user scenarios.
+- **Ideal for Large Servers or Multiple Users**: With its focus on scalability and robust database management, the Plus version provides a powerful chatbot solution for large-scale applications.
 
 ---
 
+## 👨‍💻 Author 
 
-<h2 align="left">👨‍💻 Author </h2>
+Logan Falkenberg - *Lead Developer*
 
-<div align="center">
+For any queries, discussions, or feedback, please feel free to reach out:
 
- 
-  🔧 **Logan Falkenberg** - *Lead Developer*
-  
-  For any queries, discussions, or feedback, I am always open. Feel free to reach out:
-  
-  📧 **Email:** [loganf0101@gmail.com](mailto:loganf0101@gmail.com) 
-  
-  🌐 **GitHub:** [@TheTallProgrammer](https://github.com/TheTallProgrammer)
-  
-</div>
+📧 **Email:** [loganf0101@gmail.com](mailto:loganf0101@gmail.com) 
 
-
-<h2 align="left">📜 License </h2>
-
-<div align="center">
-  
-  This project is licensed under the terms of the Apache License 2.0. Please see [LICENSE](LICENSE./) for more details.
-  
-  ![License Logo](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-  
-</div>
+🌐 **GitHub:** [@TheTallProgrammer](https://github.com/TheTallProgrammer)
 
 ---
+
+## 📜 License 
+
+This project is licensed under the terms of the Apache License 2.0. For more details, please see [LICENSE](LICENSE).
+
