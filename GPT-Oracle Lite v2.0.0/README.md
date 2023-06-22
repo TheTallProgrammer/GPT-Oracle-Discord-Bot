@@ -18,20 +18,29 @@ Here's a brief overview of the key enhancements that have been made in the v2.0.
 
 Please note that the Lite version stores the literal API key locally on the user's system. While it offers the benefit of simplicity and does not require a database, it's less secure than the Plus version. It's essential to ensure that your system is secure and that you're not sharing your API key or the file containing the key with others. Misuse of API keys can lead to unwanted requests or charges.
 
-## 📖 Usage
+## 📖 Usage and Tips
 
-The usage remains mostly the same as the previous versions, with the notable addition of the `!save_key` command. You can interact with the bot using the `!ask` command followed by your query.
+The GPT-Oracle Discord Bot Lite Version is designed to be easy and straightforward to use. Interaction remains largely similar to previous versions, with the key addition of the `!save_key` command.
 
-## 💡 Tips 
 
-To use the `!save_key` command:
+To make usage even more seamless, you can store your API key locally using the `!save_key` command. Follow these steps to do so:
 
-1. Open a Direct Message (DM) with the bot.
-2. Type the command `!save_key` followed by your API key, for instance: `!save_key abcdef123456`.
+1. Open a Direct Message (DM) with the bot. 
 
-Once done, your API key is stored locally and used for all future interactions.
+2. Type the command `!save_key` followed by your API key. For instance:
 
-Please check the `README` in the version folder for more detailed instructions and examples.
+		!save_key abcdef123456
+
+
+3. Press Enter to send the message. The bot will store your API key locally on your system, eliminating the need to enter it each time you want to interact with the bot. 
+
+Now, your API key is ready for all future interactions without needing to repeat the process. Please remember to handle your API key with care as it is sensitive information.
+
+Please note that you need to replace `abcdef123456` with your actual API key. Always ensure that your API key is secure and not shared or exposed. For any further assistance, please reach out to the developer.
+
+To interact with the bot, simply use the `!ask` command followed by your query. For example:
+
+	!ask What is the meaning of life?
 
 ---
 
