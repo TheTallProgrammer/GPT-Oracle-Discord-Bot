@@ -29,7 +29,7 @@ With these measures in place, users can confidently interact with the bot, knowi
 - 🗣️ AI Chatbot: Utilizes the power of GPT-3.5-turbo-16k, one of the most advanced language models, for real-time, dynamic conversations.
 - 🎟️ Token Count Limitation: Ensures that the conversation stays within GPT-3.5's token limits, managing older conversations when the token limit is reached.
 - 🛠️ Customization: Can be easily customized to perform a variety of tasks by changing the system message in the conversation initialization.
-- 🔒 Improved Security: The API key used for OpenAI's GPT-3.5 is now stored securely in a database. This method is safer and prevents others from seeing it in chat.
+- 🔒 Improved Security: The API key used for OpenAI's GPT-3.5 is now stored securely in a database. 
 - 🗝️ API Key Validation: Validates the OpenAI API key before processing the user input. If the key is not valid, it notifies the user.
 - 🚀 Automatic Responses: Sends an automatic message every time it is started, informing users that it's a fresh instance and previous conversations have been forgotten.
 - 📝 Intelligent Character Limit Handling: The bot smartly handles Discord's 2000 character limit per message. If a response exceeds this limit, the bot splits the message and sends the remaining text in subsequent messages, ensuring you never miss any information due to Discord's character constraints.
