@@ -46,44 +46,57 @@ For example:
 
 ## 🛠️ Setup and Integration
 
-The setup of the GPT-Oracle Plus bot involves integrating it with your SQL database and your Discord account. Here are the detailed steps:
+Setting up the GPT-Oracle Plus Bot involves integrating it with your SQL database and your Discord account. This guide provides comprehensive instructions to assist you in this process.
 
 ### Database Integration
 
-1. Locate the `database.py` file in the codebase.
-2. Look for the `connect_to_database` function in the `database.py` file.
+1. **Set up the Database Structure**
+
+    Your SQL database should contain a table `UserKeys` to store the user IDs and associated API keys. The SQL command for creating this table is:
+
+    ```sql
+    CREATE TABLE UserKeys (
+        UserID BIGINT PRIMARY KEY,
+        ApiKey VARCHAR(255) NOT NULL
+    );
+    ```
+
+    Execute this command in your SQL database to set up the table correctly.
+
+2. **Connect to the Database**
+
+    - Open the `database.py` file in the codebase.
+    - Locate the `connect_to_database` function:
 
     ```python
     def connect_to_database():
         # Replace these details with your actual database details
-        conn = pymysql.connect(host='host',
-                                user='user',
-                                password='password',
-                                db='db',
-                                port=0000)
+        conn = pymysql.connect(
+            host='host',
+            user='user',
+            password='password',
+            db='db',
+            port=0000
+        )
         return conn
     ```
 
-3. Replace `'host'`, `'user'`, `'password'`, `'db'`, and `'0000'` with your actual database host, user, password, database name, and port respectively. Ensure the details are in quotes ('').
+    - Replace `'host'`, `'user'`, `'password'`, `'db'`, and `'0000'` with your actual database details (host, user, password, database name, and port). Ensure these are enclosed in quotes ('').
 
 ### Discord Integration
 
-1. Locate the `main.py` file in the codebase.
-2. Look for the line at the end of the `main.py` file:
+1. Open the `main.py` file in the codebase.
+2. Locate the following line towards the end of the file:
 
     ```python
     TOKEN = 'TOKEN'
     bot.run(TOKEN)
     ```
 
-3. Replace `'TOKEN'` with your actual Discord bot token, ensuring that the token is in quotes ('').
+3. Replace `'TOKEN'` with your actual Discord bot token, making sure it is enclosed in quotes ('').
 
-Now your bot is ready to use! Run your bot, use the `!save_key` command in a Direct Message to save your OpenAI API key, and then use the `!ask` command in any channel to interact with the bot.
+Now, your GPT-Oracle Plus Bot is ready to go! Start your bot, use the `!save_key` command in a Direct Message to store your OpenAI API key, and then employ the `!ask` command in any channel to interact with the bot. Remember to save your changes and restart your bot for the updates to take effect.
 
-Please remember to save these files and restart your bot for the changes to take effect.
-<h2 align="left">👨‍💻 Author </h2>
-
-<div align="center">
 
  
   🔧 **Logan Falkenberg** - *Lead Developer*
