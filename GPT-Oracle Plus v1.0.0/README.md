@@ -1,7 +1,7 @@
 
 # 🤖 GPT-Oracle Plus 🚀
 
-The **PT-Oracle Plus Chatbot** is a powerful language model bot for Discord that uses OpenAI's GPT-3.5-turbo-16k model to answer user queries. It offers seamless interaction with users, and its advanced features make it an excellent choice for larger servers or environments with multiple servers. The bot enables users to store their individual API keys, allowing for personalized and optimized usage across various servers. Each user interaction is unique to the user's saved API key, which means that the bot provides individualized and custom responses based on each user's prior interactions. 
+The **GPT-Oracle Plus Chatbot** is a powerful language model bot for Discord that uses OpenAI's GPT-3.5-turbo-16k model to answer user queries. It offers seamless interaction with users, and its advanced features make it an excellent choice for larger servers or environments with multiple servers. The bot enables users to store their individual API keys, allowing for personalized and optimized usage across various servers. Each user interaction is unique to the user's saved API key, which means that the bot provides individualized and custom responses based on each user's prior interactions. 
 
 ---
 
