@@ -1,45 +1,37 @@
-<h1 align="center">🤖 GPT-Oracle Discord Bot 🚀</h1>
 
-<p align="center">A powerful, AI-driven chatbot for Discord capable of delivering high-quality, interactive, and conversational experiences to users.</p>
+# 🤖 GPT-Oracle Plus Discord Bot 🚀
 
+The **GPT-Oracle Plus Discord Bot** is an advanced, AI-driven chatbot for Discord that delivers a highly interactive, conversational experience to users. It leverages the power of OpenAI's latest GPT-3.5-turbo model to answer user queries in a highly engaging and human-like manner.
 
-<h2 align="left">🌟 Features </h2>
+---
 
-- 🗣️ **AI Chatbot**: Leverages the capabilities of advanced language models to facilitate real-time, engaging conversations.
-- 🎟️ **Token Management**: Ensures smooth conversation flow by effectively managing token count within the permissible limits of the AI model.
-- 🛠️ **Customizability**: Allows users to easily modify the bot's functionality for diverse tasks by altering the system message during conversation initiation.
-- 🔒 **Security**: Prioritizes security by sourcing the AI model's API key from a file, preventing hardcoding in the bot's code and ensuring its invisibility in chats.
-- 🗝️ **API Key Validation**: Validates the API key prior to processing user input. If the key is invalid, the user is promptly notified.
-- 🚀 **Automatic Responses**: Sends an automated message every time it is launched, notifying users of its status as a fresh instance with no recollection of previous conversations.
-- 📝 **Smart Character Limit Management**: Effectively manages Discord's 2000 character limit per message. If a response surpasses this limit, the bot splits the message and sends the remainder in subsequent messages, ensuring no loss of information due to character constraints.
+## ⭐ Features 
 
-<h2 align="left">📖 How It Works </h2>
+- 🗣️ **Advanced AI Chatbot**: Harnesses the power of the GPT-3.5-turbo model for engaging and interactive conversations.
+- 🎟️ **Individual Token Management**: Provides users with the ability to store and manage their individual API keys for personalized and optimized usage.
+- 🔒 **Enhanced Security**: Uses SQL database for secure storage and retrieval of API keys. Provides additional security measures for command usage and API key storage.
+- 🗝️ **API Key Validation and Usage**: Efficiently validates and uses API keys for individual user interactions.
+- 🚀 **Interactive User Experience**: Ensures a smooth, interactive user experience with smart character limit management, automatic responses, and more.
 
-The bot reads user messages that start with a designated character, such as '!', followed by the path to the file containing the API key, and the question separated by a delimiter, such as a comma. 
+---
 
-Upon launch, the bot informs the users of its fresh status and its lack of memory of previous conversations. As users engage, the bot generates responses, which are then sent back to the Discord channel.
+## 📘 How It Works 
 
-The bot also manages the token count in the conversation to prevent exceeding the AI model's token limit. If the token count approaches the limit, the bot removes older conversations to free up tokens.
+The bot integrates with your Discord server and interacts with users in real-time. It allows each user to store their individual API key, and uses these keys for personalized interactions. The bot checks the stored API key for each user command, ensuring secure and authorized access to its features.
 
+---
 
-<h2 align="left">🚀 Usage </h2>
+## 🚀 Usage 
 
-1. **Obtain Your API Key:** You will need an API key to use the AI model. This key should be saved to a local text file for future use.
+Refer to the detailed instructions provided in the individual version folder README for using the bot. The basic steps include obtaining your API key, getting your Discord Bot token, setting up the environment variable, running the bot, and interacting with the bot.
 
-2. **Get Your Discord Bot Token:** This requires creating a new application in the Discord developer portal, adding a bot to the application, and retrieving the bot's token. Detailed instructions can be found in the [Discord Developer Portal](https://discord.com/developers/docs/intro).
+---
 
-3. **Set Up Environment Variable:** To use the bot, you need to set the environment variable for your Discord Bot token. This allows the bot to authenticate with the Discord API. The process for setting this environment variable can vary based on your operating system.
+## 🛠️ Upcoming Features 
 
-4. **Running the Bot:** The bot can be started via the command line. Navigate to the directory containing the main file of the bot and run the bot using the relevant command.
+The GPT-Oracle Plus Discord Bot is continually being improved and updated. Stay tuned for exciting new features and enhancements!
 
-5. **Interacting with the Bot:** Users interact with the bot by providing the API key file path and their question or message, separated by a delimiter.
-
-**DETAILED USAGE IS FOUND IN THE VERSION FOLDER README**
-
-
-<h2 align="left">🔜 Upcoming Features </h2>
-
-There are plans to continually enhance the bot's capabilities and features, such as command execution and user control. Stay tuned for updates!
+---
 
 
 <h2 align="left">👨‍💻 Author </h2>
@@ -67,3 +59,5 @@ There are plans to continually enhance the bot's capabilities and features, such
   ![License Logo](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
   
 </div>
+
+---
