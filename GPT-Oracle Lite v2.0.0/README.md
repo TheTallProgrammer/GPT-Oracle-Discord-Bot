@@ -19,6 +19,13 @@ Here's a brief overview of the key enhancements that have been made in the v2.0.
 Please note that the Lite version stores the literal API key locally on the user's system. While it offers the benefit of simplicity and does not require a database, it's less secure than the Plus version. It's essential to ensure that your system is secure and that you're not sharing your API key or the file containing the key with others. Misuse of API keys can lead to unwanted requests or charges.
 
 
+## 🗝️ Obtain Your OpenAI API Key
+
+GPT-Oracle integrates with OpenAI's GPT model, necessitating an OpenAI API key for its operation. You can [create your OpenAI API key](https://platform.openai.com/account/api-keys) by registering a free account. 
+
+**Please be aware, the API key is displayed just once, so ensure you save your API key to a local text file for future usage.** If misplaced, a new one will need to be generated.
+
+
 ## 📖 Usage and Tips
 
 The GPT-Oracle Discord Bot Lite Version is designed to be easy and straightforward to use. Interaction remains largely similar to previous versions, with the key addition of the `!save_key` command.
