@@ -113,9 +113,9 @@ Setting up the GPT-Oracle Plus Bot involves integrating it with your SQL databas
 
 To interact with the bot, use the `!ask` command followed by your query. This can be done in any channel where the bot is present. Here's an example:
 
-    ```
+
     !ask What is the meaning of life?
-    ```
+
 
 After making any changes, remember to save and restart your bot for the updates to take effect.
 
