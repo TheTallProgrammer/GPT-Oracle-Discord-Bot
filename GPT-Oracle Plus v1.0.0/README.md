@@ -44,16 +44,16 @@ For example:
 - Save the OpenAI API key: `!save_key YOUR_OPENAI_API_KEY`
 - Ask a question: `!ask What is the capital of France?`
 
-## 🛠️ Setup and Integration
-
-Setting up the GPT-Oracle Plus Bot involves integrating it with your SQL database and your Discord account. This guide provides comprehensive instructions to assist you in this process.
-
-
 ## 🗝️ Obtain Your OpenAI API Key
 
 GPT-Oracle integrates with OpenAI's GPT model, necessitating an OpenAI API key for its operation. You can [create your OpenAI API key](https://platform.openai.com/account/api-keys) by registering a free account. 
 
 **Please be aware, the API key is displayed just once, so ensure you save your API key to a local text file for future usage.** If misplaced, a new one will need to be generated.
+
+
+## 🛠️ Setup and Integration
+
+Setting up the GPT-Oracle Plus Bot involves integrating it with your SQL database and your Discord account. This guide provides comprehensive instructions to assist you in this process.
 
 
 ### Database Integration
