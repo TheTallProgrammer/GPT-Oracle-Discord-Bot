@@ -48,6 +48,14 @@ For example:
 
 Setting up the GPT-Oracle Plus Bot involves integrating it with your SQL database and your Discord account. This guide provides comprehensive instructions to assist you in this process.
 
+
+## 🗝️ Obtain Your OpenAI API Key
+
+GPT-Oracle integrates with OpenAI's GPT model, necessitating an OpenAI API key for its operation. You can [create your OpenAI API key](https://platform.openai.com/account/api-keys) by registering a free account. 
+
+**Please be aware, the API key is displayed just once, so ensure you save your API key to a local text file for future usage.** If misplaced, a new one will need to be generated.
+
+
 ### Database Integration
 
 1. **Set up the Database Structure**
