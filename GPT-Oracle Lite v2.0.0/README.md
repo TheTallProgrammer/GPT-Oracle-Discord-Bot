@@ -18,10 +18,24 @@ Here's a brief overview of the key enhancements that have been made in the v2.0.
 
 Please note that the Lite version stores the literal API key locally on the user's system. While it offers the benefit of simplicity and does not require a database, it's less secure than the Plus version. It's essential to ensure that your system is secure and that you're not sharing your API key or the file containing the key with others. Misuse of API keys can lead to unwanted requests or charges.
 
+
 ## 📖 Usage and Tips
 
 The GPT-Oracle Discord Bot Lite Version is designed to be easy and straightforward to use. Interaction remains largely similar to previous versions, with the key addition of the `!save_key` command.
 
+To set up the bot with your discord server:
+
+1. Open the `main.py` file in the codebase.
+2. Locate the following line towards the end of the file:
+
+    ```python
+    TOKEN = 'TOKEN'
+    bot.run(TOKEN)
+    ```
+
+3. Replace `'TOKEN'` with your actual Discord bot token, making sure it is enclosed in quotes ('').
+
+Now, your GPT-Oracle Plus Bot is ready to go!
 
 To make usage even more seamless, you can store your API key locally using the `!save_key` command. Follow these steps to do so:
 
@@ -29,8 +43,9 @@ To make usage even more seamless, you can store your API key locally using the `
 
 2. Type the command `!save_key` followed by your API key. For instance:
 
-		!save_key abcdef123456
-
+    ```
+    !save_key abcdef123456
+    ```
 
 3. Press Enter to send the message. The bot will store your API key locally on your system, eliminating the need to enter it each time you want to interact with the bot. 
 
@@ -41,6 +56,8 @@ Please note that you need to replace `abcdef123456` with your actual API key. Al
 To interact with the bot, simply use the `!ask` command followed by your query. For example:
 
 	!ask What is the meaning of life?
+
+Remember to save your changes and restart your bot for the updates to take effect.
 
 ---
 
