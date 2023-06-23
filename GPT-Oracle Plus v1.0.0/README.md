@@ -103,7 +103,22 @@ Setting up the GPT-Oracle Plus Bot involves integrating it with your SQL databas
 
 3. Replace `'TOKEN'` with your actual Discord bot token, making sure it is enclosed in quotes ('').
 
-Now, your GPT-Oracle Plus Bot is ready to go! Start your bot, use the `!save_key` command in a Direct Message to store your OpenAI API key, and then employ the `!ask` command in any channel to interact with the bot. Remember to save your changes and restart your bot for the updates to take effect.
+2. To store your API key, you need to send a Direct Message (DM) to the bot on Discord. Type the command `!save_key` followed by your API key. For instance:
+
+    ```
+    !save_key abcdef123456
+    ```
+
+   Make sure to replace `abcdef123456` with your actual OpenAI API key. Note: the `!save_key` command should only be used in a DM with the bot to ensure the privacy of your API key.
+
+To interact with the bot, use the `!ask` command followed by your query. This can be done in any channel where the bot is present. Here's an example:
+
+    ```
+    !ask What is the meaning of life?
+    ```
+
+After making any changes, remember to save and restart your bot for the updates to take effect.
+
 
 ## 👨‍💻 Author 
 
