@@ -32,7 +32,7 @@ The Plus version is developed with scalability and robustness in mind. It is per
 
 The Discord bot offers the following commands to interact with its various functionalities:
 
-- `!save_key`: This command enables users to securely save their API key. Depending on the version of GPT-Oracle being used, the key can be stored either locally on the user's system or on a remote server. Saving the API key is essential for accessing the bot's advanced capabilities.
+- `!save_key`: This command enables users to securely save their API key. Depending on the version of GPT-Oracle being used, the key can be stored either locally on the user's system or on a remote server. `Saving the API key is essential for accessing the bot's advanced capabilities.`
 
 - `!ask`: The `!ask` command allows users to directly communicate with the GPT-3.5 Turbo model. By providing a prompt or question, users can receive intelligent and contextually relevant responses from the model. This command leverages the power of GPT-3.5 Turbo for interactive and informative conversations.
 
