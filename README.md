@@ -28,6 +28,20 @@ The Plus version is developed with scalability and robustness in mind. It is per
 
 ---
 
+## 📋 Available Commands
+
+The Discord bot offers the following commands to interact with its various functionalities:
+
+- `!save_key`: This command enables users to securely save their API key. Depending on the version of GPT-Oracle being used, the key can be stored either locally on the user's system or on a remote server. Saving the API key is essential for accessing the bot's advanced capabilities.
+
+- `!ask`: The `!ask` command allows users to directly communicate with the GPT-3.5 Turbo model. By providing a prompt or question, users can receive intelligent and contextually relevant responses from the model. This command leverages the power of GPT-3.5 Turbo for interactive and informative conversations.
+
+- `!draw`: With the introduction of the `!draw` command, users can now tap into the immense creativity of the DALLE 2 AI art generator. By supplying a prompt, users can generate unique and mesmerizing art pieces. This command provides a gateway to the world of AI-generated art and allows users to explore their artistic imagination.
+
+These commands empower users to engage with the Discord bot's versatile capabilities, ranging from interacting with AI models for conversations to unleashing their creativity through AI-generated art. Enjoy the seamless integration of advanced technologies and unlock new possibilities with each command.
+
+---
+
 ## 👨‍💻 Author 
 
 Logan Falkenberg - *Lead Developer*
