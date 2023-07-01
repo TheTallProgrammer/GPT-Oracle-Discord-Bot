@@ -47,7 +47,7 @@ Experience the GPT-Oracle Discord Bot in action! Here are some GIFs demonstratin
 
 ### `!ask` Command
 
-This command allows users to interact directly with the GPT-4 model. Provide a prompt or question, and the model will return an intelligent and contextually relevant response.
+This command allows users to interact directly with the gpt-3.5-turbo-16k model. Provide a prompt or question, and the model will return an intelligent and contextually relevant response.
 
 ![ask_command](ask_command.gif)
 
