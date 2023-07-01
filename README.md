@@ -41,6 +41,23 @@ Interact with the Discord bot's functionalities using these commands:
 These commands enable engaging interactions with the bot's diverse capabilities, from conversational AI models to AI-generated art. Experience the seamless fusion of advanced technologies and unlock new possibilities with each interaction.
 
 ---
+## 🎥 Bot in Action
+
+Experience the GPT-Oracle Discord Bot in action! Here are some GIFs demonstrating the usage of the commands:
+
+### `!ask` Command
+
+This command allows users to interact directly with the GPT-4 model. Provide a prompt or question, and the model will return an intelligent and contextually relevant response.
+
+![ask_command](ask_command.gif)
+
+### `!draw` Command
+
+The `!draw` command taps into the creativity of the DALLE 2 AI art generator. By supplying a prompt, you can generate unique and fascinating art pieces.
+
+![draw_command](draw_command.gif)
+
+---
 
 ## 👨‍💻 Author 
 
