@@ -17,7 +17,7 @@ This updated version of GPT-Oracle Ultra introduces several enhancements, making
 
 - 🛠️ **Improved Error Handling**: We've added detailed try-except blocks around the `ask` and `draw` commands to handle more types of errors.
 
-- 💬 **Typing Indicator**: To make the bot seem more interactive and human-like, a typing indicator is shown every 10 seconds.
+- 💬 **Typing Indicator**: To make the bot seem more interactive and human-like, a typing indicator is shown when the bot is responding.
 
 - 🚀 **In-Memory Storage for API Keys**: For improved performance, the bot now stores API keys in memory after their first use, reducing the need for database operations.
 
@@ -29,7 +29,7 @@ The security of your data has always been our top priority. We've taken several 
 
 ### 🔑 Secure API Key Storage
 
-Users' API keys are securely stashed away in a SQL database, retrieved only when necessary for user interaction. Please note, it is the user's responsibility to create their own database for use with this bot. Detailed instructions on setting up and integrating the database are provided below.
+Users' API keys are securely stored in a SQL database, retrieved only when necessary for user interaction. Please note that the user's responsible for creating their own database for use with this bot. I've shared the detailed instructions on setting up and integrating the database below.
 
 ### 🚦 Command Access Control
 
@@ -53,9 +53,9 @@ The `!save_key` command is the gateway to storing your API key, executable solel
 
 GPT-Oracle Ultra processes user commands and messages, responding accordingly. Three commands are essential to its functionality: `!save_key`, `!ask`, and `!draw`.
 
-- `!save_key`: This command followed by the API key helps in storing the API key securely in a SQL database.
+- `!save_key`: This command, followed by the API key, helps in storing the API key securely in a SQL database.
 - `!ask`: A command followed by a question triggers GPT-4, providing detailed responses to your queries.
-- `!draw`: This command followed by a prompt enables DALLE 2, creating unique images based on your input.
+- `!draw`: This command, followed by a prompt, enables DALLE 2 creating unique images based on your input.
 
 ---
 
