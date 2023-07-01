@@ -34,7 +34,7 @@ Interact with the Discord bot's functionalities using these commands:
 
 - `!save_key`: This command allows secure API key storage, either locally (Lite version) or on a remote server (Ultra version). Saving your API key is essential to unlock the bot's advanced capabilities.
 
-- `!ask`: Engage directly with the GPT-4 model using the `!ask` command. Provide a prompt or question and receive intelligent, contextually relevant responses, leveraging the power of GPT-4 for interactive and informative conversations.
+- `!ask`: Engage directly with the GPT-3.5 Turbo model using the `!ask` command. Provide a prompt or question and receive intelligent, contextually relevant responses, leveraging the power of GPT-3.5 Turbo for interactive and informative conversations.
 
 - `!draw`: The `!draw` command unleashes the creativity of the DALLE 2 AI art generator. Supply a prompt to generate unique and fascinating art pieces, letting you delve into the world of AI-generated art.
 
