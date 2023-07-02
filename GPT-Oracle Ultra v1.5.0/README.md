@@ -119,11 +119,7 @@ To interact with the bot, use the `!ask` or `!draw` command followed by your que
 
 
     !ask What is the meaning of life?
-    !draw Paint me a picture of a happy duck
-
-
-After making any changes, remember to save and restart your bot for the updates to take effect.
-
+    !draw Paint me a picture a happy duck
 
 ## 👨‍💻 Author 
 
