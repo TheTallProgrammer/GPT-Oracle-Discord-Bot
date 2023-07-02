@@ -44,7 +44,7 @@ async def on_ready():
 async def save_key(ctx, key):
     # Check if the command is used in a Direct Message
     if not isinstance(ctx.channel, discord.channel.DMChannel):
-        await ctx.send('This command can only be used in a DM.')
+        await ctx.send(f'{ctx.author.mention}, This command can only be used in a DM.')
         return
     # Validate the API key and save it if it's valid
     if validate_api_key():
