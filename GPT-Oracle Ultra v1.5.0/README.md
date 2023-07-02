@@ -17,9 +17,6 @@ This updated version of GPT-Oracle Ultra introduces several enhancements, making
 - 🛠️ **Improved Error Handling**: I've added detailed try-except blocks around the `ask` and `draw` commands to handle more types of errors.
 
 - 💬 **Typing Indicator**: To make the bot seem more interactive and human-like, a typing indicator is shown when the bot is responding.
-
-- 🚀 **In-Memory Storage for API Keys**: For improved performance, the bot now stores API keys in memory after their first use, reducing the need for database operations.
-
 ---
 
 ## 🛡️ Security First
