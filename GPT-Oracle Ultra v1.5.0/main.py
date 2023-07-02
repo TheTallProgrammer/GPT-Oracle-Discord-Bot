@@ -51,7 +51,7 @@ async def save_key(ctx, key):
         save_api_key(ctx.message.author.id, key)
         await ctx.send(f'{ctx.author.mention}, API key saved.')
     else:
-        await ctx.send(f"{ctx.author.mention}, API Key Invalid.")
+        await ctx.send(f"{ctx.author.mention}, API key Invalid.")
 
 # This command allows the user to ask a question which the bot answers
 @bot.command()
