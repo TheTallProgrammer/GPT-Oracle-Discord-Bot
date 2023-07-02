@@ -1,7 +1,6 @@
-
 # GPT-Oracle Ultra 🌐
 
-Welcome to the **GPT-Oracle Ultra Chatbot** v1.5.0, an advanced language model bot tailored for Discord. Based on OpenAI's latest GPT-3.5 Turbo technology, this bot redefines interactive experiences with its intuitive conversational capabilities. Designed for large server environments and multi-server setups, it ensures optimal performance and delivers personalized responses with its user-specific API key storage mechanism.
+Welcome to my **GPT-Oracle Ultra Chatbot** v1.5.0, an advanced language model bot tailored for Discord. Based on OpenAI's latest GPT-3.5 Turbo technology, this bot redefines interactive experiences with its intuitive conversational capabilities. I've designed it for large server environments and multi-server setups to ensure optimal performance and deliver personalized responses with its user-specific API key storage mechanism.
 
 ---
 
@@ -9,13 +8,13 @@ Welcome to the **GPT-Oracle Ultra Chatbot** v1.5.0, an advanced language model b
 
 This updated version of GPT-Oracle Ultra introduces several enhancements, making your interactions with the bot more efficient, reliable, and fun.
 
-- 🎨 **Integration of DALLE 2 AI Art Generator**: OpenAI's DALLE 2 AI art generator is now part of the bot, enabling users to generate unique images based on their prompts via the `!draw` command.
+- 🎨 **Integration of DALLE 2 AI Art Generator**: I've integrated OpenAI's DALLE 2 AI art generator, enabling users to generate unique images based on their prompts via the `!draw` command.
 
-- 🗃️ **Database Functions for API Keys**: We've transitioned from direct file I/O to database functions (`get_api_key` and `save_api_key`) for managing API keys. This change promotes efficiency and improves performance.
+- 🗃️ **Database Functions for API Keys**: I've transitioned from direct file I/O to database functions (`get_api_key` and `save_api_key`) for managing API keys. This change promotes efficiency and improves performance.
 
 - ✅ **API Key Validation**: The bot now validates your API key before saving it with the `validate_api_key` function. This ensures the validity of the provided OpenAI API key before use.
 
-- 🛠️ **Improved Error Handling**: We've added detailed try-except blocks around the `ask` and `draw` commands to handle more types of errors.
+- 🛠️ **Improved Error Handling**: I've added detailed try-except blocks around the `ask` and `draw` commands to handle more types of errors.
 
 - 💬 **Typing Indicator**: To make the bot seem more interactive and human-like, a typing indicator is shown when the bot is responding.
 
@@ -25,11 +24,11 @@ This updated version of GPT-Oracle Ultra introduces several enhancements, making
 
 ## 🛡️ Security First
 
-The security of your data has always been our top priority. We've taken several measures to ensure that your API keys are safe and accessible only when needed. 
+The security of your data is my top priority. I've taken several measures to ensure that your API keys are safe and accessible only when needed. 
 
 ### 🔑 Secure API Key Storage
 
-Users' API keys are securely stored in a SQL database, retrieved only when necessary for user interaction. Please note that the user's responsible for creating their own database for use with this bot. I've shared the detailed instructions on setting up and integrating the database below.
+Users' API keys are securely stored in a SQL database, retrieved only when necessary for user interaction. Please note that it's your responsibility to create your own database for use with this bot. I've shared the detailed instructions on setting up and integrating the database below.
 
 ### 🚦 Command Access Control
 
@@ -54,8 +53,8 @@ The `!save_key` command is the gateway to storing your API key, executable solel
 GPT-Oracle Ultra processes user commands and messages, responding accordingly. Three commands are essential to its functionality: `!save_key`, `!ask`, and `!draw`.
 
 - `!save_key`: This command, followed by the API key, helps in storing the API key securely in a SQL database.
-- `!ask`: A command followed by a question triggers GPT-4, providing detailed responses to your queries.
-- `!draw`: This command, followed by a prompt, enables DALLE 2 creating unique images based on your input.
+- `!ask`: A command followed by a question triggers GPT-3.5 Turbo 16k, providing detailed responses to your queries.
+- `!draw`: This command, followed by a prompt, enables DALLE 2 to create unique images based on your input.
 
 ---
 
