@@ -55,6 +55,13 @@ GPT-Oracle Ultra processes user commands and messages, responding accordingly. T
 
 ---
 
+
+## 🗝️ Obtain Your OpenAI API Key
+
+The operation of the GPT-Oracle bot integrates with OpenAI's GPT and DALLE models, necessitating an OpenAI API key. You can [create your OpenAI API key](https://platform.openai.com/account/api-keys) by registering a free account. Be sure to save your API key securely, as it's displayed only once during creation.
+
+---
+
 ## 🚀 Getting Started 
 
 Integration of your SQL database and Discord account involves a series of simple steps outlined below.
