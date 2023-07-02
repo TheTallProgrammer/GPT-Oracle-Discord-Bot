@@ -113,7 +113,7 @@ Integration of your SQL database and Discord account involves a series of simple
     !save_key abcdef123456
     ```
 
-   Make sure to replace `abcdef123456` with your actual OpenAI API key. Note: the `!save_key` command should only be used in a DM with the bot to ensure the privacy of your API key.
+   Make sure to replace `abcdef123456` with your actual OpenAI API key. Note: the `!save_key` command can only be used in a DM with the bot to ensure the privacy of your API key.
 
 To interact with the bot, use the `!ask` or `!draw` command followed by your query. This can be done in any channel where the bot is present. Here's an example:
 
