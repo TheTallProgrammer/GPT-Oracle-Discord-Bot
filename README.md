@@ -2,7 +2,7 @@
 
 Welcome to the GPT-Oracle Discord Bot family. Designed to harness the powerful capabilities of cutting-edge language models, these AI-driven chatbots come in two variations: Lite and Ultra. Each has been meticulously crafted to serve diverse user needs and contexts.
 
-## 🎚️ Lite Version
+## 💡 Lite Version
 
 The GPT-Oracle Lite is simplicity personified. It's your go-to AI-powered chatbot for smaller servers or individual use cases, eliminating the need to manage a database.
 
