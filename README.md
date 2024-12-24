@@ -65,8 +65,6 @@ Logan Falkenberg - *Lead Developer*
 
 For any queries, discussions, or feedback, please feel free to reach out:
 
-📧 **Email:** [loganf0101@gmail.com](mailto:loganf0101@gmail.com) 
-
 🌐 **GitHub:** [@TheTallProgrammer](https://github.com/TheTallProgrammer)
 
 ---
